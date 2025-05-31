@@ -3,7 +3,7 @@ from flask_cors import CORS
 import os
 import PyPDF2
 import docx
-import fitz  
+import pymupdf   
 import easyocr
 import json
 from werkzeug.utils import secure_filename
