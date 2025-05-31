@@ -2,8 +2,8 @@ from flask import Flask, jsonify, request, render_template, redirect, url_for, s
 from flask_cors import CORS
 import os
 import PyPDF2
-import fitz
 import docx
+import fitz  
 import easyocr
 import json
 from werkzeug.utils import secure_filename
